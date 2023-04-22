@@ -2,7 +2,7 @@
 
 ## Overview
 
-Limited context window is a constant issue with using GPT-4 for coding. This Python script gets all of your code into a single text file that can be easily copy-pasted into a new GPT-4 playground window to enable easier coding.
+Limited context window is a constant issue with using GPT-4 for coding. This Python script gets all of your code into a single text file that can be easily copy-pasted into a new GPT-4 playground window to make it easier to start a new session with a fresh context window.
 
 The script searches for Python, HTML, and CSS files in the current directory and its subdirectories, and then combines the content of all these files into a single text file named `all_code.txt`. This makes it easier to share your code with GPT-4 without worrying about the context window limitations.
 
